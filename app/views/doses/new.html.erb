@@ -1,5 +1,5 @@
 <!--  new_cocktail_dose GET /cocktails/:cocktail_id/doses/new(.:format)  doses#new -->
-<%= button_to "Home", cocktails_path, class: "btn btn-danger", method: "get" %>
+<%= button_to "Home", root_path, class: "btn btn-danger", method: "get" %>
 <h1><%= @cocktail.name %></h1>
 <%= simple_form_for([@cocktail, @dose]) do |f| %>
   <%= "choose ingredient" %>
